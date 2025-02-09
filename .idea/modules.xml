@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FrontEndPart.iml" filepath="$PROJECT_DIR$/FrontEndPart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Framework_All.iml" filepath="$PROJECT_DIR$/Spring_Framework_All.iml" />
     </modules>
   </component>
