@@ -80,3 +80,33 @@
     });
 
 
+    $("#btnViewAll").click(function () {
+        $.ajax({
+            url: "http://localhost:8080/BackEndPart_Web_exploded/api/vi/customer/getAll", // API endpoint
+            type: "GET",
+            dataType: "json", // Expect JSON response
+            success: function (customers) {
+                let tableBody = $("#userTableBody");
+                tableBody.empty(); // Clear previous data
+
+                customers.forEach(customer => {
+                    let row = `<tr>
+                    <td>${customer.id}</td>
+                    <td>${customer.name}</td>
+                    <td>${customer.address}</td>
+                    <td>${customer.age}</td>
+                </tr>`;
+                    tableBody.append(row); // Append new row
+                });
+
+                alert("Customer data loaded successfully!");
+            },
+            error: function (xhr) {
+                alert("Error loading customer data: " + xhr.responseText);
+                console.error(xhr.responseText);
+            }
+        });
+    });
+
+
+
