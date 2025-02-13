@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/RestController/pom.xml" />
         <option value="$PROJECT_DIR$/BackEndPart/pom.xml" />
         <option value="$PROJECT_DIR$/FrontEndPart/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_data_JPA/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

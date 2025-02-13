@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="Spring_DI_03" />
         <module name="Spring_web_MVC" />
         <module name="configuration_05" />
+        <module name="Spring_data_JPA" />
         <module name="Spring_FullModelVsLightModel_04" />
         <module name="Spring_runTimeValue_Injection_06" />
         <module name="Spring_Environment_07" />
